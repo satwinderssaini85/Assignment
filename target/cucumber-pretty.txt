@@ -1,0 +1,45 @@
+@all
+Feature: Select Women Dress
+
+  @dressSelection
+  Scenario Outline: Woman summer Dress                 [90m# DressSelection.feature:8[0m
+    [36mWhen [0m[36mUser hovers over online "<Shopping Category>"[0m
+    [36mAnd [0m[36mUser select "<Dress Type>"[0m
+    [36mWhen [0m[36mUser hover over "<Dress To Buy>"[0m
+    [36mWhen [0m[36mUser click over quick view element[0m
+    [36mWhen [0m[36mUser selects "<Size>"[0m
+    [36mWhen [0m[36mUser click Add to Cart[0m
+    [36mWhen [0m[36mUser click continue shopping[0m
+    [36mWhen [0m[36mUser hover over Cart[0m
+    [36mWhen [0m[36mUser click checkout button[0m
+    [36mWhen [0m[36mUser click Proceed to Checkout[0m
+    [36mWhen [0m[36mUser enter email to register[0m
+    [36mWhen [0m[36mUser click create account button[0m
+    [36mWhen [0m[36mUser enter mandatory details[0m
+    [36mWhen [0m[36mUser Proceed to Shipping page[0m
+    [36mThen [0m[36mUser verify selection "<Dress To Buy>"[0m
+    [36mWhen [0m[36mUser confirm order[0m
+
+    Examples: 
+
+  Background:                               [90m# DressSelection.feature:4[0m
+    [32mGiven [0m[32mUser land on "[0m[32m[1mautomationpractice[0m[32m"[0m [90m# CommonStepdefinition.user_land_on(String)[0m
+
+  @dressSelection @all
+  Scenario Outline: Woman summer Dress                [90m# DressSelection.feature:30[0m
+    [32mWhen [0m[32mUser hovers over online "[0m[32m[1mWOMEN[0m[32m"[0m              [90m# LandingPageStepDefs.user_hovers_over_online(String)[0m
+    [32mAnd [0m[32mUser select "[0m[32m[1mSummer Dresses[0m[32m"[0m                  [90m# LandingPageStepDefs.user_select(String)[0m
+    [32mWhen [0m[32mUser hover over "[0m[32m[1mPrinted Summer Dress[0m[32m"[0m       [90m# SummerDressPageStepDefs.user_hover_over(String)[0m
+    [32mWhen [0m[32mUser click over quick view element[0m           [90m# SummerDressPageStepDefs.user_click_over_quick_view_element()[0m
+    [32mWhen [0m[32mUser selects "[0m[32m[1mS[0m[32m"[0m                             [90m# SummerDressPageStepDefs.user_selects(String)[0m
+    [32mWhen [0m[32mUser click Add to Cart[0m                       [90m# SummerDressPageStepDefs.user_click_Add_to_Cart()[0m
+    [32mWhen [0m[32mUser click continue shopping[0m                 [90m# SummerDressPageStepDefs.user_click_continue_shopping()[0m
+    [32mWhen [0m[32mUser hover over Cart[0m                         [90m# LandingPageStepDefs.user_hover_over_Cart()[0m
+    [32mWhen [0m[32mUser click checkout button[0m                   [90m# LandingPageStepDefs.user_click_checkout_button()[0m
+    [32mWhen [0m[32mUser click Proceed to Checkout[0m               [90m# LandingPageStepDefs.user_click_Proceed_to_Checkout()[0m
+    [32mWhen [0m[32mUser enter email to register[0m                 [90m# CheckOutPageStepDefs.user_enter_email_to_register()[0m
+    [32mWhen [0m[32mUser click create account button[0m             [90m# CheckOutPageStepDefs.user_click_create_account_button()[0m
+    [32mWhen [0m[32mUser enter mandatory details[0m                 [90m# CheckOutPageStepDefs.user_enter_mandatory_details(DataTable)[0m
+    [32mWhen [0m[32mUser Proceed to Shipping page[0m                [90m# CheckOutPageStepDefs.user_Proceed_to_Shipping_page()[0m
+    [32mThen [0m[32mUser verify selection "[0m[32m[1mPrinted Summer Dress[0m[32m"[0m [90m# CheckOutPageStepDefs.user_verify_selection(String)[0m
+    [32mWhen [0m[32mUser confirm order[0m                           [90m# CheckOutPageStepDefs.user_confirm_order()[0m

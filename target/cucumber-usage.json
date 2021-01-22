@@ -1,0 +1,308 @@
+[
+  {
+    "source": "^User click Add to Cart$",
+    "steps": [
+      {
+        "name": "User click Add to Cart",
+        "aggregatedDurations": {
+          "average": 0.0849689,
+          "median": 0.0849689
+        },
+        "durations": [
+          {
+            "duration": 0.0849689,
+            "location": "DressSelection.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter mandatory details$",
+    "steps": [
+      {
+        "name": "User enter mandatory details",
+        "aggregatedDurations": {
+          "average": 4.2391118,
+          "median": 4.2391118
+        },
+        "durations": [
+          {
+            "duration": 4.2391118,
+            "location": "DressSelection.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User selects \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User selects \"S\"",
+        "aggregatedDurations": {
+          "average": 1.1969654,
+          "median": 1.1969654
+        },
+        "durations": [
+          {
+            "duration": 1.1969654,
+            "location": "DressSelection.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User select \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User select \"Summer Dresses\"",
+        "aggregatedDurations": {
+          "average": 0.9335081,
+          "median": 0.9335081
+        },
+        "durations": [
+          {
+            "duration": 0.9335081,
+            "location": "DressSelection.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User hover over \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User hover over \"Printed Summer Dress\"",
+        "aggregatedDurations": {
+          "average": 0.1627285,
+          "median": 0.1627285
+        },
+        "durations": [
+          {
+            "duration": 0.1627285,
+            "location": "DressSelection.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter email to register$",
+    "steps": [
+      {
+        "name": "User enter email to register",
+        "aggregatedDurations": {
+          "average": 0.119686,
+          "median": 0.119686
+        },
+        "durations": [
+          {
+            "duration": 0.119686,
+            "location": "DressSelection.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User hover over Cart$",
+    "steps": [
+      {
+        "name": "User hover over Cart",
+        "aggregatedDurations": {
+          "average": 0.1611522,
+          "median": 0.1611522
+        },
+        "durations": [
+          {
+            "duration": 0.1611522,
+            "location": "DressSelection.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User hovers over online \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User hovers over online \"WOMEN\"",
+        "aggregatedDurations": {
+          "average": 0.1721493,
+          "median": 0.1721493
+        },
+        "durations": [
+          {
+            "duration": 0.1721493,
+            "location": "DressSelection.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click checkout button$",
+    "steps": [
+      {
+        "name": "User click checkout button",
+        "aggregatedDurations": {
+          "average": 1.3128889,
+          "median": 1.3128889
+        },
+        "durations": [
+          {
+            "duration": 1.3128889,
+            "location": "DressSelection.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click continue shopping$",
+    "steps": [
+      {
+        "name": "User click continue shopping",
+        "aggregatedDurations": {
+          "average": 1.6796319,
+          "median": 1.6796319
+        },
+        "durations": [
+          {
+            "duration": 1.6796319,
+            "location": "DressSelection.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User verify selection \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User verify selection \"Printed Summer Dress\"",
+        "aggregatedDurations": {
+          "average": 0.0368186,
+          "median": 0.0368186
+        },
+        "durations": [
+          {
+            "duration": 0.0368186,
+            "location": "DressSelection.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Proceed to Shipping page$",
+    "steps": [
+      {
+        "name": "User Proceed to Shipping page",
+        "aggregatedDurations": {
+          "average": 1.5478863,
+          "median": 1.5478863
+        },
+        "durations": [
+          {
+            "duration": 1.5478863,
+            "location": "DressSelection.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click Proceed to Checkout$",
+    "steps": [
+      {
+        "name": "User click Proceed to Checkout",
+        "aggregatedDurations": {
+          "average": 1.1846749,
+          "median": 1.1846749
+        },
+        "durations": [
+          {
+            "duration": 1.1846749,
+            "location": "DressSelection.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User land on \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User land on \"automationpractice\"",
+        "aggregatedDurations": {
+          "average": 4.581995,
+          "median": 4.581995
+        },
+        "durations": [
+          {
+            "duration": 4.581995,
+            "location": "DressSelection.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User confirm order$",
+    "steps": [
+      {
+        "name": "User confirm order",
+        "aggregatedDurations": {
+          "average": 1.6781139,
+          "median": 1.6781139
+        },
+        "durations": [
+          {
+            "duration": 1.6781139,
+            "location": "DressSelection.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click over quick view element$",
+    "steps": [
+      {
+        "name": "User click over quick view element",
+        "aggregatedDurations": {
+          "average": 0.0734177,
+          "median": 0.0734177
+        },
+        "durations": [
+          {
+            "duration": 0.0734177,
+            "location": "DressSelection.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click create account button$",
+    "steps": [
+      {
+        "name": "User click create account button",
+        "aggregatedDurations": {
+          "average": 0.064021,
+          "median": 0.064021
+        },
+        "durations": [
+          {
+            "duration": 0.064021,
+            "location": "DressSelection.feature:20"
+          }
+        ]
+      }
+    ]
+  }
+]

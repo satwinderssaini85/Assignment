@@ -1,0 +1,356 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4581995000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User land on \"automationpractice\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automationpractice",
+                  "offset": 14
+                }
+              ],
+              "location": "CommonStepdefinition.user_land_on(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3758384900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Woman summer Dress",
+        "description": "",
+        "id": "select-women-dress;woman-summer-dress;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 604985200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.killTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172149300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User hovers over online \"WOMEN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WOMEN",
+                  "offset": 25
+                }
+              ],
+              "location": "LandingPageStepDefs.user_hovers_over_online(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 933508100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select \"Summer Dresses\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Summer Dresses",
+                  "offset": 13
+                }
+              ],
+              "location": "LandingPageStepDefs.user_select(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162728500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User hover over \"Printed Summer Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 17
+                }
+              ],
+              "location": "SummerDressPageStepDefs.user_hover_over(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73417700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click over quick view element",
+            "match": {
+              "location": "SummerDressPageStepDefs.user_click_over_quick_view_element()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1196965400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User selects \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 14
+                }
+              ],
+              "location": "SummerDressPageStepDefs.user_selects(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84968900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click Add to Cart",
+            "match": {
+              "location": "SummerDressPageStepDefs.user_click_Add_to_Cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1679631900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click continue shopping",
+            "match": {
+              "location": "SummerDressPageStepDefs.user_click_continue_shopping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161152200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User hover over Cart",
+            "match": {
+              "location": "LandingPageStepDefs.user_hover_over_Cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1312888900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click checkout button",
+            "match": {
+              "location": "LandingPageStepDefs.user_click_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1184674900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click Proceed to Checkout",
+            "match": {
+              "location": "LandingPageStepDefs.user_click_Proceed_to_Checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119686000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter email to register",
+            "match": {
+              "location": "CheckOutPageStepDefs.user_enter_email_to_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64021000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click create account button",
+            "match": {
+              "location": "CheckOutPageStepDefs.user_click_create_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4239111800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter mandatory details",
+            "match": {
+              "location": "CheckOutPageStepDefs.user_enter_mandatory_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Last Name",
+                  "Password",
+                  "FirstNameAddress",
+                  "LastNameAddress",
+                  "Street",
+                  "City",
+                  "State",
+                  "ZipCode",
+                  "Mobile"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Automation",
+                  "lastname",
+                  "Pass123",
+                  "Auto",
+                  "lastAddress",
+                  "StreeName",
+                  "Unknown",
+                  "Kansas",
+                  "00000",
+                  "38748234"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1547886300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Proceed to Shipping page",
+            "match": {
+              "location": "CheckOutPageStepDefs.user_Proceed_to_Shipping_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36818600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User verify selection \"Printed Summer Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 23
+                }
+              ],
+              "location": "CheckOutPageStepDefs.user_verify_selection(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1678113900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User confirm order",
+            "match": {
+              "location": "CheckOutPageStepDefs.user_confirm_order()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@dressSelection"
+          },
+          {
+            "line": 1,
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Select Women Dress",
+    "description": "",
+    "id": "select-women-dress",
+    "keyword": "Feature",
+    "uri": "DressSelection.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  }
+]

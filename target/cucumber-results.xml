@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.593089">
+<testcase classname="Select Women Dress" name="Woman summer Dress" time="23.593089">
+<system-out><![CDATA[Given User land on "automationpractice".....................................passed
+When User hovers over online "WOMEN"........................................passed
+And User select "Summer Dresses"............................................passed
+When User hover over "Printed Summer Dress".................................passed
+When User click over quick view element.....................................passed
+When User selects "S".......................................................passed
+When User click Add to Cart.................................................passed
+When User click continue shopping...........................................passed
+When User hover over Cart...................................................passed
+When User click checkout button.............................................passed
+When User click Proceed to Checkout.........................................passed
+When User enter email to register...........................................passed
+When User click create account button.......................................passed
+When User enter mandatory details...........................................passed
+When User Proceed to Shipping page..........................................passed
+Then User verify selection "Printed Summer Dress"...........................passed
+When User confirm order.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
